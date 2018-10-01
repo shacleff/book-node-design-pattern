@@ -6,6 +6,8 @@ const mkdirp = require('mkdirp');
 const path = require('path');
 const utilities = require('./utilities');
 const TaskQueue = require('./taskQueue');
+
+// 限制并发数为2
 let downloadQueue = new TaskQueue(2);
 
 function spiderLinks(currentUrl, body, nesting, callback) {
@@ -94,3 +96,5 @@ spider(process.argv[2], 1, (err) => {
     console.log('Download complete');
   }
 });
+
+// node index.js https://github.com/132982jianan/NodeDesignPattern/blob/master/Chapter03/06_web_spider_v4/index.js
