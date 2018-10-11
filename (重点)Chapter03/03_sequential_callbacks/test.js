@@ -1,4 +1,7 @@
 "use strict";
+/**
+ * 层层嵌套执行
+ */
 
 function asyncOperation(callback) {
   process.nextTick(callback);

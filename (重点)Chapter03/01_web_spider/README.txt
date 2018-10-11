@@ -6,3 +6,4 @@ To run this example you need to:
 
 2. download a website of your choice with
      node index.js <url of the website to download>
+     node index.js http://www.baidu.com
