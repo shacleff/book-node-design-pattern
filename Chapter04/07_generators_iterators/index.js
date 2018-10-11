@@ -8,7 +8,16 @@ function* iteratorGenerator(arr) {
 
 const iterator = iteratorGenerator(['apple', 'orange', 'watermelon']);
 let currentItem = iterator.next();
+
+// 进行一个迭代
 while (!currentItem.done) {
   console.log(currentItem.value);
   currentItem = iterator.next();
 }
+
+
+/**
+apple
+orange
+watermelon
+*/

@@ -6,6 +6,7 @@ const slug = require('slug');
 const path = require('path');
 const cheerio = require('cheerio');
 
+// 
 module.exports.urlToFilename = function urlToFilename(url) {
   let parsedUrl = urlParse(url);
   let urlPath = parsedUrl.path.split('/')
@@ -19,6 +20,7 @@ module.exports.urlToFilename = function urlToFilename(url) {
   return filename;
 };
 
+// 
 module.exports.getLinkUrl = function getLinkUrl(currentUrl, element) {
   let link = urlResolve(currentUrl, element.attribs.href || "");
   let parsedLink = urlParse(link);
@@ -30,6 +32,7 @@ module.exports.getLinkUrl = function getLinkUrl(currentUrl, element) {
   return link;
 };
 
+// 
 module.exports.getPageLinks = function getPageLinks(currentUrl, body) {
   return [].slice.call(cheerio.load(body)('a'))
     .map(element => module.exports.getLinkUrl(currentUrl, element))
@@ -37,6 +40,8 @@ module.exports.getPageLinks = function getPageLinks(currentUrl, body) {
     ;
 };
 
+
+// 
 module.exports.promisify = function (callbackBasedApi) {
   return function promisified() {
     let args = [].slice.call(arguments);

@@ -8,6 +8,7 @@ const mkdirp = utilities.promisify(require('mkdirp'));
 const readFile = utilities.promisify(fs.readFile);
 const writeFile = utilities.promisify(fs.writeFile);
 
+// 
 function spiderLinks(currentUrl, body, nesting) {
   if (nesting === 0) {
     return Promise.resolve();
@@ -19,6 +20,7 @@ function spiderLinks(currentUrl, body, nesting) {
   return Promise.all(promises);
 }
 
+// 
 function download(url, filename) {
   console.log(`Downloading ${url}`);
   let body;
@@ -35,6 +37,7 @@ function download(url, filename) {
     ;
 }
 
+// 
 const spidering = new Map();
 function spider(url, nesting) {
   if (spidering.has(url)) {
@@ -45,8 +48,8 @@ function spider(url, nesting) {
   const filename = utilities.urlToFilename(url);
   return readFile(filename, 'utf8')
     .then(
-      body => spiderLinks(url, body, nesting),
-      err => {
+      body => spiderLinks(url, body, nesting),    // 成功
+      err => {                                    // 失败
         if (err.code !== 'ENOENT') {
           throw err;
         }
@@ -58,6 +61,7 @@ function spider(url, nesting) {
     );
 }
 
+// 
 spider(process.argv[2], 1)
   .then(() => console.log('Download complete'))
   .catch(err => console.log(err))

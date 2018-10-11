@@ -8,3 +8,7 @@ function* twoWayGenerator() {
 const twoWay = twoWayGenerator();
 twoWay.next();
 twoWay.next('world');
+
+/**
+Hello world
+ */

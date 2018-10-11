@@ -7,6 +7,6 @@ function* fruitGenerator() {
 }
 
 const newFruitGenerator = fruitGenerator();
-console.log(newFruitGenerator.next());    //[1]
-console.log(newFruitGenerator.next());    //[2]
-console.log(newFruitGenerator.next());    //[3]
+console.log(newFruitGenerator.next());    //[1]  { value: 'apple', done: false }
+console.log(newFruitGenerator.next());    //[2]  { value: 'orange', done: false }
+console.log(newFruitGenerator.next());    //[3]  { value: 'watermelon', done: true }
