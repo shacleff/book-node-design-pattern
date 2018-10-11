@@ -11,8 +11,9 @@ function getPageHtml(url) {
 }
 
 async function main() {
-  const html = await getPageHtml('http://google.com');
-  console.log(html);
+  // const html = await getPageHtml('http://google.com');
+  const html = await getPageHtml('http://www.baidu.com');
+  console.log(html); //输出这个网页的内容
 }
 
 main();

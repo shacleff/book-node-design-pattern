@@ -12,7 +12,7 @@ const writeFile = thunkify(fs.writeFile);
 const nextTick = thunkify(process.nextTick);
 
 function spiderLinks(currentUrl, body, nesting) {
-  if(nesting === 0) {
+  if (nesting === 0) {
     return nextTick();
   }
 
@@ -25,16 +25,16 @@ function spiderLinks(currentUrl, body, nesting) {
     }
 
     function done(err, result) {
-      if(err && !hasErrors) {
+      if (err && !hasErrors) {
         hasErrors = true;
         return callback(err);
       }
-      if(++completed === links.length && !hasErrors) {
+      if (++completed === links.length && !hasErrors) {
         callback();
       }
     }
 
-    for(let i = 0; i < links.length; i++) {
+    for (let i = 0; i < links.length; i++) {
       co(spider(links[i], nesting - 1)).then(done);
     }
   }
@@ -52,17 +52,17 @@ function* download(url, filename) {
 
 const spidering = new Map();
 function* spider(url, nesting) {
-  if(spidering.has(url)) {
+  if (spidering.has(url)) {
     return nextTick();
   }
   spidering.set(url, true);
-  
+
   const filename = utilities.urlToFilename(url);
   let body;
   try {
     body = yield readFile(filename, 'utf8');
-  } catch(err) {
-    if(err.code !== 'ENOENT') {
+  } catch (err) {
+    if (err.code !== 'ENOENT') {
       throw err;
     }
     body = yield download(url, filename);
@@ -74,7 +74,7 @@ co(function* () {
   try {
     yield spider(process.argv[2], 1);
     console.log('Download complete');
-  } catch(err) {
+  } catch (err) {
     console.log(err);
   }
 });

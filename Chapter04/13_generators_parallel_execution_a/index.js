@@ -11,16 +11,18 @@ const readFile = thunkify(fs.readFile);
 const writeFile = thunkify(fs.writeFile);
 const nextTick = thunkify(process.nextTick);
 
+// 
 function* spiderLinks(currentUrl, body, nesting) {
-  if(nesting === 0) {
+  if (nesting === 0) {
     return nextTick();
   }
-  
+
   const links = utilities.getPageLinks(currentUrl, body);
   const tasks = links.map(link => spider(link, nesting - 1));
   yield tasks;
 }
 
+// 
 function* download(url, filename) {
   console.log(`Downloading ${url}`);
   const results = yield request(url);
@@ -31,19 +33,22 @@ function* download(url, filename) {
   return body;
 }
 
+// 
 const spidering = new Map();
+
+// 
 function* spider(url, nesting) {
-  if(spidering.has(url)) {
+  if (spidering.has(url)) {
     return nextTick();
   }
   spidering.set(url, true);
-  
+
   let filename = utilities.urlToFilename(url);
   let body;
   try {
     body = yield readFile(filename, 'utf8');
-  } catch(err) {
-    if(err.code !== 'ENOENT') {
+  } catch (err) {
+    if (err.code !== 'ENOENT') {
       throw err;
     }
     body = yield download(url, filename);
@@ -51,11 +56,12 @@ function* spider(url, nesting) {
   yield spiderLinks(url, body, nesting);
 }
 
+// 
 co(function* () {
   try {
     yield spider(process.argv[2], 1);
     console.log('Download complete');
-  } catch(err) {
+  } catch (err) {
     console.log(err);
   }
 });

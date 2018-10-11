@@ -11,32 +11,34 @@ const readFile = thunkify(fs.readFile);
 const writeFile = thunkify(fs.writeFile);
 const nextTick = thunkify(process.nextTick);
 const TaskQueue = require('./taskQueue');
+
+// 限制并发最多2条
 const downloadQueue = new TaskQueue(2);
 
 function spiderLinks(currentUrl, body, nesting) {
-  if(nesting === 0) {
+  if (nesting === 0) {
     return nextTick();
   }
-  
+
   return (callback) => {
     let completed = 0, hasErrors = false;
     let links = utilities.getPageLinks(currentUrl, body);
-    if(links.length === 0) {
+    if (links.length === 0) {
       return process.nextTick(callback);
     }
 
     function done(err, result) {
-      if(err && !hasErrors) {
+      if (err && !hasErrors) {
         hasErrors = true;
         callback(err);
       }
-      if(++completed === links.length && !hasErrors) {
+      if (++completed === links.length && !hasErrors) {
         callback();
       }
     }
-    
+
     links.forEach(link => {
-      downloadQueue.pushTask(function *() {
+      downloadQueue.pushTask(function* () {
         yield spider(link, nesting - 1);
         done();
       });
@@ -58,17 +60,17 @@ function download(url, filename) {
 
 let spidering = new Map();
 function* spider(url, nesting) {
-  if(spidering.has(url)) {
+  if (spidering.has(url)) {
     return nextTick();
   }
   spidering.set(url, true);
-  
+
   let filename = utilities.urlToFilename(url);
   let body;
   try {
     body = yield readFile(filename, 'utf8');
-  } catch(err) {
-    if(err.code !== 'ENOENT') {
+  } catch (err) {
+    if (err.code !== 'ENOENT') {
       throw err;
     }
     body = yield download(url, filename);
@@ -80,7 +82,7 @@ co(function* () {
   try {
     yield spider(process.argv[2], 1);
     console.log('Download complete');
-  } catch(err) {
+  } catch (err) {
     console.log(err);
   }
 });
