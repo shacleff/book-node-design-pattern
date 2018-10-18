@@ -169,7 +169,7 @@
 * 实现注销插件
 * 总结
 
-### 第8章 通用JavaScript 的Web 应用程序
+### 第8章 通用JavaScript的Web应用程序
 * 与浏览器端共享代码
 * 共享模块
 * Webpack 简介
