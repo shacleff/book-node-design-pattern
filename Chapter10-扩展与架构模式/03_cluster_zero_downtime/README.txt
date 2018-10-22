@@ -6,3 +6,4 @@ To try the sample run:
   
 To trigger a restart use the command (works only on Linux/MacOS/*nix)
   kill -SIGUSR2 <MASTER_PROCESS_PID>
+
