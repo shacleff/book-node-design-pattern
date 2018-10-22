@@ -14,3 +14,7 @@ Then reload the server with:
 
 Access the server at:
   http://localhost
+
+
+配置文件位置
+/usr/local/etc/nginx/nginx.conf
