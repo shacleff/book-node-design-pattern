@@ -2,22 +2,34 @@
 
 const WebSocketServer = require('ws').Server;
 const args = require('minimist')(process.argv.slice(2));
+
+/**
+ * brew install zmq 安装后, 依赖才能安装成功
+ * node 6.11.1
+ * npm i 方式安装才行
+ */
 const zmq = require('zmq');
 
 //static file server
 const server = require('http').createServer(
-  require('ecstatic')({root: `${__dirname}/www`})
+  require('ecstatic')({ root: `${__dirname}/www` })
 );
 
+// -----zmq发布者-----
 const pubSocket = zmq.socket('pub');
 pubSocket.bind(`tcp://127.0.0.1:${args['pub']}`);
 
+// 
 const subSocket = zmq.socket('sub');
+
+// -----多个订阅者-----
 const subPorts = [].concat(args['sub']);
 subPorts.forEach(p => {
   console.log(`Subscribing to ${p}`);
   subSocket.connect(`tcp://127.0.0.1:${p}`);
 });
+
+// 订阅chat消息
 subSocket.subscribe('chat');
 
 subSocket.on('message', msg => {
@@ -25,9 +37,9 @@ subSocket.on('message', msg => {
   broadcast(msg.toString().split(' ')[1]);
 });
 
-const wss = new WebSocketServer({server: server});
+const wss = new WebSocketServer({ server: server });
 wss.on('connection', ws => {
-  console.log('Client connected'); 
+  console.log('Client connected');
   ws.on('message', msg => {
     console.log(`Message: ${msg}`);
     broadcast(msg);
@@ -41,4 +53,5 @@ function broadcast(msg) {
   });
 }
 
+// 
 server.listen(args['http'] || 8080);
