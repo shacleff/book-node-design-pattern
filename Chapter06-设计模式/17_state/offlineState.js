@@ -2,9 +2,12 @@
 
 const jot = require('json-over-tcp');         //[1]
 
+/**
+ * 离线状态
+ */
 module.exports = class OfflineState {
 
-  constructor (failsafeSocket) {
+  constructor(failsafeSocket) {
     this.failsafeSocket = failsafeSocket;
   }
 
