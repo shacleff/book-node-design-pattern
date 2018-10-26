@@ -20,6 +20,7 @@ module.exports = class OfflineState {
       setTimeout(() => this.activate(), 500);
     };
 
+    // 每一段间隔就进行尝试连接，连接上了，则进入在线状态
     this.failsafeSocket.socket = jot.connect(
       this.failsafeSocket.options,
       () => {

@@ -3,22 +3,25 @@
 const path = require('path');
 
 module.exports = function createFsAdapter(db) {
+
+  // 适配出来的对象
   const fs = {};
 
+  // 读
   fs.readFile = (filename, options, callback) => {
     if (typeof options === 'function') {
       callback = options;
       options = {};
-    } else if(typeof options === 'string') {
-      options = {encoding: options};
+    } else if (typeof options === 'string') {
+      options = { encoding: options };
     }
 
     db.get(path.resolve(filename), {         //[1]
-        valueEncoding: options.encoding
-      },
+      valueEncoding: options.encoding
+    },
       (err, value) => {
-        if(err) {
-          if(err.type === 'NotFoundError') {       //[2]
+        if (err) {
+          if (err.type === 'NotFoundError') {       //[2]
             err = new Error(`ENOENT, open "${filename}"`);
             err.code = 'ENOENT';
             err.errno = 34;
@@ -31,12 +34,13 @@ module.exports = function createFsAdapter(db) {
     );
   };
 
+  // 写
   fs.writeFile = (filename, contents, options, callback) => {
-    if(typeof options === 'function') {
+    if (typeof options === 'function') {
       callback = options;
       options = {};
-    } else if(typeof options === 'string') {
-      options = {encoding: options};
+    } else if (typeof options === 'string') {
+      options = { encoding: options };
     }
 
     db.put(path.resolve(filename), contents, {
