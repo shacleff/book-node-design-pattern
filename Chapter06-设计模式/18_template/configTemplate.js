@@ -22,10 +22,12 @@ class ConfigTemplate {
     return objectPath.set(this.data, path, value);
   }
 
+  // 序列化写入数据
   _serialize() {
     throw new Error('_serialize() must be implemented');
   }
 
+  // 反序列化得到数据
   _deserialize() {
     throw new Error('_deserialize() must be implemented');
   }

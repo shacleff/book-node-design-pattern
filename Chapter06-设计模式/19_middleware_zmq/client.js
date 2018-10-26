@@ -9,7 +9,11 @@ request.connect('tcp://127.0.0.1:5000');
 
 const zmqm = new ZmqMiddlewareManager(request);
 
+
+// 中间件
 zmqm.use(jsonMiddleware.json());
+
+// 
 zmqm.use({
   inbound: function (message, next) {
     console.log('Echoed back: ', message.data);
@@ -17,6 +21,6 @@ zmqm.use({
   }
 });
 
-setInterval( () => {
-  zmqm.send({action: 'ping', echo: Date.now()});
+setInterval(() => {
+  zmqm.send({ action: 'ping', echo: Date.now() });
 }, 1000);

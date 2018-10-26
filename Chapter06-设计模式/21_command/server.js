@@ -3,11 +3,14 @@
 const http = require('http');
 
 http.createServer((request, response) => {
-  if(request.url !== '/cmd') {
+  // 
+  if (request.url !== '/cmd') {
     response.writeHead(400);
     response.end();
   }
 
+
+  // 
   let data = '';
 
   request.on('data', chunk => {
@@ -16,8 +19,11 @@ http.createServer((request, response) => {
 
   request.on('end', () => {
     console.log('Received the command: ', data);
-    
+
+    // 回应头设置
     response.writeHead(200, { 'Content-Type': 'application/json' });
-    response.end(JSON.stringify({ok: true}));
+
+    // 回应
+    response.end(JSON.stringify({ ok: true }));
   });
-}).listen(3000, () => {console.log('Started')});
+}).listen(3000, () => { console.log('Started') });
