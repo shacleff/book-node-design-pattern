@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 
+// 
 function createLoggingWritable(writableOrig) {
   const proto = Object.getPrototypeOf(writableOrig);
 
@@ -11,24 +12,24 @@ function createLoggingWritable(writableOrig) {
 
   LoggingWritable.prototype = Object.create(proto);
 
-  LoggingWritable.prototype.write = function(chunk, encoding, callback) {
-    if(!callback && typeof encoding === 'function') {
+  LoggingWritable.prototype.write = function (chunk, encoding, callback) {
+    if (!callback && typeof encoding === 'function') {
       callback = encoding;
       encoding = undefined;
     }
     console.log('Writing ', chunk);
-    return this.writableOrig.write(chunk, encoding, function() {
+    return this.writableOrig.write(chunk, encoding, function () {
       console.log('Finished writing ', chunk);
       callback && callback();
     });
   };
 
-  LoggingWritable.prototype.on = function() {
+  LoggingWritable.prototype.on = function () {
     return this.writableOrig.on
       .apply(this.writableOrig, arguments);
   };
 
-  LoggingWritable.prototype.end = function() {
+  LoggingWritable.prototype.end = function () {
     return this.writableOrig.end
       .apply(this.writableOrig, arguments);
   };
@@ -36,6 +37,8 @@ function createLoggingWritable(writableOrig) {
   return new LoggingWritable(writableOrig);
 }
 
+
+// 
 const writable = fs.createWriteStream('test.txt');
 const writableProxy = createLoggingWritable(writable);
 
