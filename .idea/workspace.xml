@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bff1c95-28a7-4f11-822d-b7a3dcd5fdf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/01.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/03.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/03.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/04.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/04.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/05.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/01.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/03.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/03.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,39 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/02.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/03.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/04.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/05.js">
+        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/03.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="152">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -74,6 +46,9 @@
         <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/03.js" />
         <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/04.js" />
         <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/05.js" />
+        <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/01.js" />
+        <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/02.js" />
+        <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/03.js" />
       </list>
     </option>
   </component>
@@ -88,6 +63,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="112" />
     <option name="y" value="23" />
     <option name="width" value="1777" />
     <option name="height" value="877" />
@@ -113,7 +89,7 @@
               <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter01-欢迎来到Node.js平台" type="462c0819:PsiDirectoryNode" />
-              <item name="02_let_const" type="462c0819:PsiDirectoryNode" />
+              <item name="03_class" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,29 +116,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.05.js (1)">
-    <configuration name="01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="01.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const">
+  <component name="RunManager" selected="Node.js.03.js">
+    <configuration name="01.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="01.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class">
+      <method v="2" />
+    </configuration>
+    <configuration name="02.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="02.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class">
       <method v="2" />
     </configuration>
     <configuration name="02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="02.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const">
       <method v="2" />
     </configuration>
+    <configuration name="03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="03.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class">
+      <method v="2" />
+    </configuration>
     <configuration name="05.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="05.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const">
-      <method v="2" />
-    </configuration>
-    <configuration name="05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="05.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function">
-      <method v="2" />
-    </configuration>
-    <configuration name="06.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="06.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.03.js" />
+        <item itemvalue="Node.js.02.js (1)" />
+        <item itemvalue="Node.js.01.js (1)" />
         <item itemvalue="Node.js.05.js (1)" />
         <item itemvalue="Node.js.02.js" />
-        <item itemvalue="Node.js.01.js" />
-        <item itemvalue="Node.js.06.js" />
-        <item itemvalue="Node.js.05.js" />
       </list>
     </recent_temporary>
   </component>
@@ -176,32 +152,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573804631183</updated>
-      <workItem from="1573804632614" duration="573000" />
+      <workItem from="1573804632614" duration="771000" />
+      <workItem from="1573805406295" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="573000" />
+    <option name="totallyTimeSpent" value="1128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1777" height="877" extended-state="0" />
+    <frame x="112" y="23" width="1777" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2278698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18960594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="LuaCheck" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32898173" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37467363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.049608354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="LuaCheck" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3916449" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -263,13 +240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/03.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -288,6 +258,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
