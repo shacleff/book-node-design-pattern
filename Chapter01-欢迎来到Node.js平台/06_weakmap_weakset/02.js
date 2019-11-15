@@ -7,3 +7,8 @@ const set = new WeakSet([obj1, obj2]);
 console.log(set.has(obj1)); // true
 obj1 = undefined; // now obj1 will be removed from the set
 console.log(set.has(obj1)); // false
+
+/**
+ true
+ false
+ */

@@ -8,5 +8,5 @@ s.delete(0);
 s.has(0); // false
 
 for (let entry of s) {
-  console.log(entry);
+    console.log(entry);
 }
