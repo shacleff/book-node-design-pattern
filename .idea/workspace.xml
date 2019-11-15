@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bff1c95-28a7-4f11-822d-b7a3dcd5fdf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set/01.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set/01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set/02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set/03.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set/03.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/01.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/07_template/01.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/07_template/01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/01_callback_sync_cont_passing/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/01_callback_sync_cont_passing/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/02_callback_async_cont_passing/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/02_callback_async_cont_passing/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/03_callback_non_cont_passing/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/03_callback_non_cont_passing/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/04_callback_unpredictable/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/04_callback_unpredictable/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/05_callback_sync_api/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/05_callback_sync_api/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/06_callback_deferred_execution/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/06_callback_deferred_execution/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/07_callback_propagating_errors/readJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/07_callback_propagating_errors/readJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_class.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_constructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/09_module_revealing_module/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/09_module_revealing_module/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/12_observer_event_emitter_find_pattern/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/12_observer_event_emitter_find_pattern/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,26 +28,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/02.js">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/09_module_revealing_module/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="324">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/README.txt">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/loader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/a.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/b.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/07_template/01.js">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/12_observer_event_emitter_find_pattern/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="360">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/README.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/moduleA.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/moduleB.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -75,6 +121,19 @@
         <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/01.js" />
         <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/02.js" />
         <option value="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/07_template/01.js" />
+        <option value="$USER_HOME$/Desktop/mj_js.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/01_callback_sync_cont_passing/test.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/02_callback_async_cont_passing/test.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/03_callback_non_cont_passing/test.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/04_callback_unpredictable/test.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/05_callback_sync_api/test.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/06_callback_deferred_execution/test.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/07_callback_propagating_errors/readJSON.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_class.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_constructor.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/09_module_revealing_module/test.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/loader.js" />
+        <option value="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/12_observer_event_emitter_find_pattern/main.js" />
       </list>
     </option>
   </component>
@@ -89,9 +148,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-65" />
-    <option name="y" value="23" />
-    <option name="width" value="1777" />
+    <option name="x" value="-29" />
+    <option name="y" value="47" />
+    <option name="width" value="1883" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -109,31 +168,79 @@
             <path>
               <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter01-欢迎来到Node.js平台" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter01-欢迎来到Node.js平台" type="462c0819:PsiDirectoryNode" />
-              <item name="04_enhanced_object_literals" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="01_callback_sync_cont_passing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter01-欢迎来到Node.js平台" type="462c0819:PsiDirectoryNode" />
-              <item name="05_map_set" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="02_callback_async_cont_passing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter01-欢迎来到Node.js平台" type="462c0819:PsiDirectoryNode" />
-              <item name="06_weakmap_weakset" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="03_callback_non_cont_passing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter01-欢迎来到Node.js平台" type="462c0819:PsiDirectoryNode" />
-              <item name="07_template" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="04_callback_unpredictable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="05_callback_sync_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="06_callback_deferred_execution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="07_callback_propagating_errors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="08_module_examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="09_module_revealing_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="10_module_loader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="11_module_circular_dependency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-node-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-node-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter02-Node.js基础设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="12_observer_event_emitter_find_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,29 +267,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.01.js (2)">
-    <configuration name="01.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="01.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set">
+  <component name="RunManager" selected="Node.js.main.js (2)">
+    <configuration name="logger_function_test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="logger_function_test.js" working-dir="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples">
       <method v="2" />
     </configuration>
-    <configuration name="01.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="01.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/07_template">
+    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency">
       <method v="2" />
     </configuration>
-    <configuration name="01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="01.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset">
+    <configuration name="main.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/12_observer_event_emitter_find_pattern">
       <method v="2" />
     </configuration>
-    <configuration name="02.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="02.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/05_map_set">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader">
       <method v="2" />
     </configuration>
-    <configuration name="02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="02.js" working-dir="$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset">
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/Chapter02-Node.js基础设计模式/09_module_revealing_module">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.01.js (2)" />
-        <item itemvalue="Node.js.02.js" />
-        <item itemvalue="Node.js.01.js" />
-        <item itemvalue="Node.js.02.js (1)" />
-        <item itemvalue="Node.js.01.js (1)" />
+        <item itemvalue="Node.js.main.js (2)" />
+        <item itemvalue="Node.js.main.js (1)" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.logger_function_test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -197,23 +304,23 @@
       <option name="presentableId" value="Default" />
       <updated>1573804631183</updated>
       <workItem from="1573804632614" duration="771000" />
-      <workItem from="1573805406295" duration="2040000" />
+      <workItem from="1573805406295" duration="4866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2811000" />
+    <option name="totallyTimeSpent" value="5637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-65" y="23" width="1777" height="877" extended-state="0" />
+    <frame x="-29" y="47" width="1883" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24157624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21540119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1840731" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19712794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,7 +328,7 @@
       <window_info anchor="bottom" id="LuaCheck" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28590077" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.040169135" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -232,110 +339,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function/01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function/02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function/03.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function/04.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function/06.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/01_arrow_function/05.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/03.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/04.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/05.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/02_let_const/02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/03_class/03.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/04_enhanced_object_literals/03.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -402,6 +405,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../算法学习/study_interesting_algorithm/不带癞子麻将算法/mj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/07_template/01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/02.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -409,13 +429,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/06_weakmap_weakset/README.txt">
+    <entry file="file://$USER_HOME$/Desktop/mj_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../算法学习/study_interesting_algorithm/不带癞子麻将算法/性能测试/mj_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/01_callback_sync_cont_passing/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01-欢迎来到Node.js平台/07_template/01.js">
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/01_callback_sync_cont_passing/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="324">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/02_callback_async_cont_passing/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/03_callback_non_cont_passing/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/04_callback_unpredictable/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/04_callback_unpredictable/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/05_callback_sync_api/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/06_callback_deferred_execution/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/04_callback_unpredictable/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/07_callback_propagating_errors/invalid_json.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/07_callback_propagating_errors/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/07_callback_propagating_errors/readJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/07_callback_propagating_errors/valid_json.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_class_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_constructor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_constructor_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_function.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_function_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_guard.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_guard_es2015.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_guard_es2015_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_guard_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_instance.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/08_module_examples/logger_instance_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/09_module_revealing_module/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/moduleA.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/moduleB.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/10_module_loader/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/a.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/11_module_circular_dependency/b.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02-Node.js基础设计模式/12_observer_event_emitter_find_pattern/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

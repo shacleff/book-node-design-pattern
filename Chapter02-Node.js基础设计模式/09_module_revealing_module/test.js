@@ -1,15 +1,18 @@
 "use strict";
 
 const mod = (() => {
-  const privateFoo = () => {};
-  const privateBar = [];
+    const privateFoo = () => {
+    };
+    const privateBar = [];
 
-  const exported = {
-    publicFoo: () => {},
-    publicBar: () => {}
-  };
+    const exported = {
+        publicFoo: () => {
+        },
+        publicBar: () => {
+        }
+    };
 
-  return exported;
+    return exported;
 })();
 
 console.log(mod);
