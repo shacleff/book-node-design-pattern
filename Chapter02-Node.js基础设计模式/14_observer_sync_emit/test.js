@@ -3,10 +3,10 @@
 const EventEmitter = require('events').EventEmitter;
 
 class SyncEmit extends EventEmitter {
-  constructor() {
-    super();
-    this.emit('ready');
-  }
+    constructor() {
+        super();
+        this.emit('ready');
+    }
 }
 
 const syncEmit = new SyncEmit();

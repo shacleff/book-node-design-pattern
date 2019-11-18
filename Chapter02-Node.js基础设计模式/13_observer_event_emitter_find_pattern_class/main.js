@@ -4,41 +4,46 @@ const EventEmitter = require('events').EventEmitter;
 const fs = require('fs');
 
 class FindPattern extends EventEmitter {
-  constructor (regex) {
-    super();
-    this.regex = regex;
-    this.files = [];
-  }
+    constructor(regex) {
+        super();
+        this.regex = regex;
+        this.files = [];
+    }
 
-  addFile (file) {
-    this.files.push(file);
-    return this;
-  }
+    addFile(file) {
+        this.files.push(file);
+        return this;
+    }
 
-  find () {
-    this.files.forEach( file => {
-      fs.readFile(file, 'utf8', (err, content) => {
-        if (err) {
-          return this.emit('error', err);
-        }
+    find() {
+        this.files.forEach(file => {
+            fs.readFile(file, 'utf8', (err, content) => {
+                if (err) {
+                    return this.emit('error', err);
+                }
 
-        this.emit('fileread', file);
+                this.emit('fileread', file);
 
-        let match;
-        if (match = content.match(this.regex)) {
-          match.forEach(elem => this.emit('found', file, elem));
-        }
-      });
-    });
-    return this;
-  }
+                let match;
+                if (match = content.match(this.regex)) {
+                    match.forEach(elem => this.emit('found', file, elem));
+                }
+            });
+        });
+        return this;
+    }
 }
 
 const findPatternObject = new FindPattern(/hello \w+/);
 findPatternObject
-  .addFile('fileA.txt')
-  .addFile('fileB.json')
-  .find()
-  .on('found', (file, match) => console.log(`Matched "${match}" in file ${file}`))
-  .on('error', err => console.log(`Error emitted ${err.message}`))
-;
+    .addFile('fileA.txt')
+    .addFile('fileB.json')
+    .find()
+    .on('found', (file, match) => console.log(`Matched "${match}" in file ${file}`))
+    .on('error', err => console.log(`Error emitted ${err.message}`));
+
+
+/**
+ Matched "hello world" in file fileA.txt
+ Matched "hello NodeJS" in file fileB.json
+ */

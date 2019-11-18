@@ -14,3 +14,7 @@ function helloCallback(callback) {
 
 helloEvents().on('hello', (message) => console.log(message));
 helloCallback((message) => console.log(message));
+/**
+ hello world
+ hello world
+ */
