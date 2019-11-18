@@ -24,6 +24,7 @@ const req = http.request(options, res => {
   console.log('Server response: ' + res.statusCode);
 });
 
+// 本地的文件发送
 fs.createReadStream(file)
   .pipe(zlib.createGzip())
   .pipe(req)

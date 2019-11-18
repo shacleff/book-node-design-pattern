@@ -12,5 +12,4 @@ combine(
 ).on('error', err => {
     //this error may come from any stream in the pipeline
     console.log(err);
-  })
-;
+  });

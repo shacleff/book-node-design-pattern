@@ -3,7 +3,7 @@
 const Image = require('./image');
 
 function createImage(name) {
-  return new Image(name);
+    return new Image(name);
 }
 
 const image = createImage('photo.jpeg');
