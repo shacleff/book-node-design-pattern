@@ -1,32 +1,26 @@
 "use strict";
 
 module.exports = function asyncDivision(dividend, divisor, cb) {
+    return new Promise((resolve, reject) => {  // [1]
+        process.nextTick(() => {
+            const result = dividend / divisor;
 
-  // 
-  return new Promise((resolve, reject) => {  // [1]
+            if (isNaN(result) ||
+                !Number.isFinite(result)) {
 
-    // 
-    process.nextTick(() => {
+                const error = new Error('Invalid operands');
+                if (cb) {
+                    cb(error);
+                }  // [2]
 
-      // 
-      const result = dividend / divisor;
+                return reject(error);
+            }
 
-      if (isNaN(result) ||
-        !Number.isFinite(result)) {
+            if (cb) {
+                cb(null, result);
+            }  // [3]
 
-        const error = new Error('Invalid operands');
-        if (cb) {
-          cb(error);
-        }  // [2]
-
-        return reject(error);
-      }
-
-      if (cb) {
-        cb(null, result);
-      }  // [3]
-
-      resolve(result);
+            resolve(result);
+        });
     });
-  });
 };

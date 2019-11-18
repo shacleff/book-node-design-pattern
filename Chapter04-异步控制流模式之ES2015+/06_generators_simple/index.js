@@ -1,9 +1,9 @@
 "use strict";
 
 function* fruitGenerator() {
-  yield 'apple';
-  yield 'orange';
-  return 'watermelon';
+    yield 'apple';
+    yield 'orange';
+    return 'watermelon';
 }
 
 const newFruitGenerator = fruitGenerator();

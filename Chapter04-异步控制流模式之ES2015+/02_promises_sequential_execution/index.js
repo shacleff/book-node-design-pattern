@@ -1,38 +1,22 @@
 "use strict";
 
 const utilities = require('./utilities');
-
-// 
 const path = require('path');
-
-// 
 const request = utilities.promisify(require('request'));
-
-// 
 const fs = require('fs');
-
-// 
 const mkdirp = utilities.promisify(require('mkdirp'));
-
-// 将fs的异步读函数promise化
 const readFile = utilities.promisify(fs.readFile);
-
-// 将fs的异步写函数promise话
 const writeFile = utilities.promisify(fs.writeFile);
 
-// 
 function spiderLinks(currentUrl, body, nesting) {
   let promise = Promise.resolve();
 
-  // 
   if (nesting === 0) {
     return promise;
   }
 
-  // 
   const links = utilities.getPageLinks(currentUrl, body);
 
-  // 
   links.forEach(link => {
     promise = promise.then(() => spider(link, nesting - 1));
   });
@@ -40,7 +24,6 @@ function spiderLinks(currentUrl, body, nesting) {
   return promise;
 }
 
-// 
 function download(url, filename) {
   console.log(`Downloading ${url}`);
   let body;
@@ -57,12 +40,10 @@ function download(url, filename) {
     ;
 }
 
-// 
 function spider(url, nesting) {
   let filename = utilities.urlToFilename(url);
 
   console.log('filename:' + filename);
-
 
   return readFile(filename, 'utf8')
     .then(
@@ -73,8 +54,7 @@ function spider(url, nesting) {
         }
 
         return download(url, filename)
-          .then(body => spiderLinks(url, body, nesting))
-          ;
+          .then(body => spiderLinks(url, body, nesting));
       }
     );
 }

@@ -12,7 +12,6 @@ const writeFile = utilities.promisify(fs.writeFile);
 // 最大容纳任务数量是2
 let downloadQueue = new TaskQueue(2);
 
-// 
 function spiderLinks(currentUrl, body, nesting) {
   if (nesting === 0) {
     return Promise.resolve();
@@ -38,19 +37,15 @@ function spiderLinks(currentUrl, body, nesting) {
     // 是否发生了错误
     let errored = false;
 
-    // 
     links.forEach(link => {
 
-      // 
       let task = () => {
         return spider(link, nesting - 1)
           .then(() => {
 
-            // 
             if (++completed === links.length) {
               resolve();
             }
-
           })
           .catch(() => {
             if (!errored) {
@@ -61,14 +56,12 @@ function spiderLinks(currentUrl, body, nesting) {
           ;
       };
 
-      // 
       downloadQueue.pushTask(task);
-
     });
   });
 }
 
-// 
+
 function download(url, filename) {
   console.log(`Downloading ${url}`);
   let body;
@@ -81,14 +74,11 @@ function download(url, filename) {
     .then(() => {
       console.log(`Downloaded and saved: ${url}`);
       return body;
-    })
-    ;
+    });
 }
 
-// 
 const spidering = new Map();
 
-// 
 function spider(url, nesting) {
 
   // 已经有这个下载任务了，避免重复
@@ -101,7 +91,6 @@ function spider(url, nesting) {
 
   let filename = utilities.urlToFilename(url);
 
-  // 
   return readFile(filename, 'utf8')
     .then(
       body => spiderLinks(url, body, nesting),
@@ -118,8 +107,6 @@ function spider(url, nesting) {
     ;
 }
 
-// 
 spider(process.argv[2], 1)
   .then(() => console.log('Download complete'))
-  .catch(err => console.log(err))
-  ;
+  .catch(err => console.log(err));
